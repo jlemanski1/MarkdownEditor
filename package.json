@@ -1,0 +1,29 @@
+{
+  "name": "markdown-editor",
+  "version": "0.0.1",
+  "description": "Realtime Collaborative Markdown Editor",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlemanski1/MarkdownEditor.git"
+  },
+  "keywords": [
+    "markdown",
+    "realtime",
+    "sharejs",
+    "collaborative"
+  ],
+  "author": "Jonathan Lemanski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jlemanski1/MarkdownEditor/issues"
+  },
+  "homepage": "https://github.com/jlemanski1/MarkdownEditor#readme",
+  "dependencies": {
+    "ejs": "^3.1.3",
+    "express": "^4.17.1"
+  }
+}
