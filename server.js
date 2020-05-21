@@ -19,4 +19,6 @@ app.get('/', function(req, res) {
 
 // Listen on port 8000 for localhost
 var port = 8000;
-app.listen(port);
+app.listen(port, () => {
+    console.log('Server running');
+});
