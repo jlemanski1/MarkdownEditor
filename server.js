@@ -5,6 +5,9 @@
 
 
 var express = require('express');
+var sharejs = require('share');
+require('redis');
+
 var app = express();
 
 app.set('view engine', 'ejs');
@@ -16,6 +19,14 @@ app.use(express.static(__dirname + '/public'));
 app.get('/', function(req, res) {
     res.render('mkdViewer');
 });
+
+// ShareJS options
+var options = {
+    db: {type: 'redis'},
+};
+
+// Attach express server to shareJS
+sharejs.server.attach(app, options);
 
 // Listen on port 8000 for localhost
 var port = 8000;
