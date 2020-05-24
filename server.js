@@ -43,7 +43,7 @@ var options = {
 sharejs.server.attach(app, options);
 
 // Listen on port
-var port = process.env.PORT || 8000;
+var port = process.env.PORT || 8080;
 app.listen(port, () => {
     console.log('Server running');
 });
