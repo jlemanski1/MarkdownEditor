@@ -28,9 +28,15 @@ window.onload = function () {
 
     textArea.addEventListener('input', textToMarkdown);
     
-    // Open sharejs connection to keep everyone's text area in sync
-    sharejs.open('home', 'text', function(error, doc) {
-        doc.attach_textarea(textArea);
-        textToMarkdown();
-    });
+    // ignore on home page
+    if (document.location.pathname.length > 1) {
+        var documentName = document.location.pathname.substring(1);
+        // Open sharejs connection to keep everyone's text area in sync
+        sharejs.open(documentName, 'text', function(error, doc) {
+            doc.attach_textarea(textArea);
+            textToMarkdown();
+        });
+    }
+    textToMarkdown();
+
 };
