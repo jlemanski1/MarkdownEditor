@@ -1,12 +1,13 @@
 window.onload = function () {
     var converter = new showdown.Converter();
-    var textArea = this.document.getElementById('textArea');
-    var markdownArea = this.document.getElementById('markdown');
+    var textArea = document.getElementById('textArea');
+    var markdownArea = document.getElementById('markdown');
 
     var previousMarkdownValue;
 
+    
     // Make Tab key act normally and not kill focus
-    textArea.addEventListener('keydown', funcion(e) {
+    textArea.addEventListener('keydown', function(e) {
         // Tab was pressed
         if (e.keyCode === 9) {
             var start = this.selectionStart;
