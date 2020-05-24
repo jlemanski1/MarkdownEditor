@@ -19,6 +19,9 @@ app.use(express.static(__dirname + '/public'));
 app.get('/', function(req, res) {
     res.render('mkdViewer');
 });
+app.get('/(:id)', function(req, res) {
+    res.render('mkdViewer');
+});
 
 // ShareJS options
 var options = {
