@@ -5,6 +5,26 @@ window.onload = function () {
 
     var previousMarkdownValue;
 
+    // Make Tab key act normally and not kill focus
+    textArea.addEventListener('keydown', funcion(e) {
+        // Tab was pressed
+        if (e.keyCode === 9) {
+            var start = this.selectionStart;
+            var end = this.selectionEnd;
+
+            var target = e.target;
+            var value = target.value;
+
+            // Set to text before caret + tab + text after
+            target.value = value.substring(0, start) + "\t" + value.substring(end);
+
+            this.selectionStart = this.selectionEnd = start + 1;
+
+            // Prevent focus loss
+            e.preventDefault();
+        }
+    });
+
     // Convert text area's contents to html to be previewed for the user
     var textToMarkdown = function() {
         var markdownText = textArea.value;
@@ -26,6 +46,7 @@ window.onload = function () {
         }
     }, 1000);
 
+    // Convert text area on input change
     textArea.addEventListener('input', textToMarkdown);
     
     // ignore on home page
@@ -37,6 +58,8 @@ window.onload = function () {
             textToMarkdown();
         });
     }
+
+    // Convert text area on page load
     textToMarkdown();
 
 };

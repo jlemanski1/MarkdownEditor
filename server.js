@@ -31,8 +31,8 @@ var options = {
 // Attach express server to shareJS
 sharejs.server.attach(app, options);
 
-// Listen on port 8000 for localhost
-var port = 8000;
+// Listen on port 8000 for localhost & heroku defined port
+var port = process.env.PORT || 8000;
 app.listen(port, () => {
     console.log('Server running');
 });
