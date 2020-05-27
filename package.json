@@ -1,6 +1,6 @@
 {
   "name": "markdown-editor",
-  "version": "0.1.1",
+  "version": "0.3.1",
   "description": "Realtime Collaborative Markdown Editor",
   "main": "server.js",
   "scripts": {
@@ -27,5 +27,11 @@
     "express": "^4.17.1",
     "redis": "^3.0.2",
     "share": "^0.6.3"
+  },
+  "devDependencies": {
+    "base64-url": ">=2.0.0",
+    "morgan": ">=1.9.1",
+    "socket.io": ">=0.9.7",
+    "uglify-js": ">=2.6.0"
   }
 }
