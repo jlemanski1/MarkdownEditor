@@ -1,8 +1,7 @@
 /*
     SERVERJS
-    Application entry point
+    Application entry point, configures and starts server
 */
-
 
 var express = require('express');
 var sharejs = require('share');
@@ -28,10 +27,12 @@ console.log(process.env.REDISTOGO_URL);
 if (process.env.REDISTOGO_URL) {
   var rtg = require("url").parse(process.env.REDISTOGO_URL);
   redisClient = require("redis").createClient(rtg.port, rtg.hostname);
-  redisClient.auth(rtg.auth.split(":")[1]);
+  redisClient.auth(rtg.auth.split(":")[1]); // Split user and password
 } else {
   redisClient = require("redis").createClient();
 }
+
+// Log redis errors
 redisClient.on('error', function(err) {
     console.log(err);
 });
