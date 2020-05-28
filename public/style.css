@@ -1,5 +1,16 @@
-html, body, section, .full-height {
-    height: 100%;
+/* Responsive layout*/
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
 }
 
 #textArea {

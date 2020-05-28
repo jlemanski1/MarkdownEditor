@@ -6,9 +6,9 @@
         <link href="style.css" rel="stylesheet">
     </head>
 
-    <body class="container-fluid">
+    <body class="flex-container">
         <section class="row">
-            <textarea class=" col-md-6 full-height" id="textArea">
+            <textarea class="column" id="textArea">
 # Realtime Markdown Editor
 
 Write your markdown on the left and view your changes onthe right in real time!
@@ -16,8 +16,9 @@ Write your markdown on the left and view your changes onthe right in real time!
 ### Beep Boop
 
             </textarea>
-            <div class="col-md-6 full-height" id="markdown"></div>
+            <div class="column" id="markdown"></div>
         </section>
+        
 
         <script src="https://cdn.rawgit.com/showdownjs/showdown/1.0.2/dist/showdown.min.js"></script>
         <script src="/channel/bcsocket.js"></script>

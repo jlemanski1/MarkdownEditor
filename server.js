@@ -34,7 +34,7 @@ if (process.env.REDISTOGO_URL) {
 
 // Log redis errors
 redisClient.on('error', function(err) {
-    console.log(err);
+    console.log('Is Redis server running?\n' + err + '\n');
 });
 
 // ShareJS options
