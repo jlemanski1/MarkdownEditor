@@ -6,17 +6,21 @@
         <link href="style.css" rel="stylesheet">
     </head>
 
-    <body class="flex-container">
-        <section class="row">
-            <textarea class="column" id="textArea">
+    <body>
+            <div class="section group">
+                <div class="col span_1_of_2">
+                    <textarea id="textArea">
 # Realtime Markdown Editor
 
 Write your markdown on the left and view your changes onthe right in real time!
 
 ### Beep Boop
-
-            </textarea>
-            <div class="column" id="markdown"></div>
+                    </textarea>
+                </div>
+                <div class="col span_1_of_2">
+                    <div id="markdown"></div>
+                </div>
+            </div>
         </section>
         
 
