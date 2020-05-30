@@ -1,5 +1,3 @@
-
-
 #textArea {
     font-family: Menlo, Monaco, Consolas, monospace;
     border: none;
@@ -15,6 +13,7 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     width: 100%;
+    height: 100%;
 }
 
 
@@ -33,7 +32,8 @@
 .col {
 	display: block;
 	float:left;
-	margin: 1% 0 1% .8%;
+    margin: 1% 0 1% .8%;
+    height: 100%;
 }
 .col:first-child { margin-left: 0; }
 
