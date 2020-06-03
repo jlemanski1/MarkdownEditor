@@ -15,10 +15,10 @@ app.use(express.static(__dirname + '/public'));
 
 // App Routes
 app.get('/', function(req, res) {
-    res.render('mkdViewer');
+    res.render('index');    // Open to landing page
 });
 app.get('/(:id)', function(req, res) {
-    res.render('mkdViewer');
+    res.render('mkdViewer');    // Open to the editor when direct linked
 });
 
 // Setup redis server
