@@ -20,6 +20,7 @@
 #markdown {
     overflow: auto;
     border-left: 3px solid black;
+    height: 100vh;
 }
 
 .section {
