@@ -62,3 +62,14 @@
   .hero .container-fluid {
     z-index: 10;
   }
+
+  .page-footer .footer-copy {
+    text-align: center;
+    align-content: center;
+  }
+   
+  @media screen and (max-width: 767px) {
+    .page-footer .footer-child {
+      text-align: center;
+    }
+  }
