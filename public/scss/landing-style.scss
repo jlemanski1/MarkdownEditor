@@ -1,0 +1,25 @@
+/*  
+    --------------------
+    LANDING PAGE VIEW
+    --------------------
+*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Ubuntu');
+
+//black for background
+$primary: rgba(15%, 15%, 17%, 0.85), rgba(15%, 15%, 17%, 0.95);
+//red for branding box
+$accent: #EF4135;
+//white for right triangle
+$neutral-white-background: rgba(100%, 100%, 100%, 0.8), rgba(100%, 100%, 100%, 0.9);
+$neutral-white: #ffffff;
+//gray for presents-text
+$neutral-gray: #A19E9F;
+//body background
+$background-color: #D3DBF2;
+
+
+html, body {
+    height: 100vh;
+    background: $primary;
+}
+

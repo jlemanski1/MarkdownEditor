@@ -1,0 +1,9 @@
+/*  
+    --------------------
+    LANDING PAGE VIEW
+    --------------------
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Ubuntu");
+html, body {
+  height: 100vh;
+  background: rgba(38, 38, 43, 0.85), rgba(38, 38, 43, 0.95); }
