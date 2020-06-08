@@ -8,7 +8,7 @@
 //black for background
 $primary: rgba(15%, 15%, 17%, 0.85), rgba(15%, 15%, 17%, 0.95);
 //red for branding box
-$accent: #EF4135;
+$accent: #7002f2;
 //white for right triangle
 $neutral-white-background: rgba(100%, 100%, 100%, 0.8), rgba(100%, 100%, 100%, 0.9);
 $neutral-white: #ffffff;
@@ -65,4 +65,24 @@ html, body {
     width: 50%;
     -webkit-clip-path: $triangle;
     clip-path: $triangle;
+}
+
+.red-brand-box {
+    position: absolute;
+    width: 8%;
+    height: 10%;
+    top: 10%;
+    left: 10%;
+    background: $accent;
+    z-index: 2;
+}
+
+.white-brand-box {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    top: 15%;
+    left: 15%;
+    border: solid 6px $neutral-white;
+    z-index: 3;
 }

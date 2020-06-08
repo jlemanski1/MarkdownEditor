@@ -30,3 +30,21 @@ html, body {
   width: 50%;
   -webkit-clip-path: polygon(100% 0, 0% 100%, 100% 100%);
   clip-path: polygon(100% 0, 0% 100%, 100% 100%); }
+
+.red-brand-box {
+  position: absolute;
+  width: 8%;
+  height: 10%;
+  top: 10%;
+  left: 10%;
+  background: #7002f2;
+  z-index: 2; }
+
+.white-brand-box {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  top: 15%;
+  left: 15%;
+  border: solid 6px #ffffff;
+  z-index: 3; }
