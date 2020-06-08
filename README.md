@@ -28,6 +28,11 @@ cd src
 ```bash
 node server.js
 ```
+**Watch SCSS files**
+```bash
+npm run scss
+```
+Tmux is a great help for facilitating running all the servers in a single terminal window.
 
 ### How was this built?
 
