@@ -57,3 +57,28 @@ html, body {
   color: #A19E9F;
   font-size: 16px;
   font-weight: 300; }
+
+.title {
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  font-family: "Ubuntu";
+  font-size: 48px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase; }
+
+.cta-button {
+  position: absolute;
+  width: 25%;
+  height: 10%;
+  bottom: 25%;
+  left: 10%;
+  background: #7002f2;
+  border: none;
+  padding: 10;
+  font-family: "Ubuntu";
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase; }

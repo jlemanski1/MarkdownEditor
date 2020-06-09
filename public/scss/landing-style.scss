@@ -96,3 +96,30 @@ html, body {
     font-size: $small-font-size;
     font-weight: $medium-font-weight;
 }
+
+.title {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    font-family: $primary-font;
+    font-size: $large-font-size;
+    font-weight: $thick-font-weight;
+    color: $neutral-white;
+    text-transform: $uppercase-transform;
+}
+
+.cta-button {
+    position: absolute;
+    width: 25%;
+    height: 10%;
+    bottom: 25%;
+    left: 10%;
+    background: $accent;
+    border: none;
+    padding: 10;
+    font-family: $primary-font;
+    font-size: $small-font-size;
+    font-weight: $thick-font-weight;
+    color: $neutral-white;
+    text-transform: $uppercase-transform;
+}
