@@ -86,3 +86,13 @@ html, body {
     border: solid 6px $neutral-white;
     z-index: 3;
 }
+
+.header-text {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    font-family: $secondary-font;
+    color: $neutral-gray;
+    font-size: $small-font-size;
+    font-weight: $medium-font-weight;
+}

@@ -48,3 +48,12 @@ html, body {
   left: 15%;
   border: solid 6px #ffffff;
   z-index: 3; }
+
+.header-text {
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  font-family: "Open Sans Condensed";
+  color: #A19E9F;
+  font-size: 16px;
+  font-weight: 300; }
