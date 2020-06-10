@@ -21,7 +21,7 @@ $background-color: #D3DBF2;
 $primary-font: "Ubuntu";
 $secondary-font: "Open Sans Condensed";
 $large-font-size: 48px;
-$small-font-size: 16px;
+$small-font-size: 24px;
 $thick-font-weight: 700;
 $medium-font-weight: 300;
 $uppercase-transform: uppercase;
@@ -84,7 +84,7 @@ html, body {
 
 .header-text {
     position: absolute;
-    top: 25%;
+    top: 23%;
     left: 10%;
     font-family: $secondary-font;
     color: $neutral-gray;

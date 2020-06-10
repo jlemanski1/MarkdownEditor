@@ -49,11 +49,11 @@ html, body {
 
 .header-text {
   position: absolute;
-  top: 25%;
+  top: 23%;
   left: 10%;
   font-family: "Open Sans Condensed";
   color: #A19E9F;
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 300; }
 
 .title {
@@ -76,7 +76,7 @@ html, body {
   border: none;
   padding: 10;
   font-family: "Ubuntu";
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 700;
   color: #ffffff;
   text-transform: uppercase;
