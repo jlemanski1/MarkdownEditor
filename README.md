@@ -20,15 +20,22 @@ cd redis-stable
 make
 ```
 **Start redis server**
+
+from redis server directory
 ```bash
 cd src
 ./redis-server
 ```
 **Start NodeJS server**
+
+
+from project directory
 ```bash
 node server.js
 ```
 **Watch SCSS files**
+
+from project directory
 ```bash
 npm run scss
 ```
