@@ -49,11 +49,11 @@ html, body {
 
 .header-text {
   position: absolute;
-  top: 25%;
+  top: 23%;
   left: 10%;
   font-family: "Open Sans Condensed";
   color: #A19E9F;
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 300; }
 
 .title {
@@ -76,10 +76,22 @@ html, body {
   border: none;
   padding: 10;
   font-family: "Ubuntu";
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 700;
   color: #ffffff;
   text-transform: uppercase;
+  transition-duration: 0.4s;
   -webkit-box-shadow: 10px 10px 18px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 18px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 18px 0px rgba(0, 0, 0, 0.75); }
+
+.cta-button:hover {
+  background: linear-gradient(rgba(38, 38, 43, 0.85), rgba(38, 38, 43, 0.95));
+  color: #A19E9F; }
+
+/*  Mobile Responsive changes */
+@media only screen and (max-width: 480px) {
+  .right-tri {
+    height: 50%; }
+  .cta-button {
+    width: 40%; } }

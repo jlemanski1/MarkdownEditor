@@ -1,6 +1,6 @@
 {
   "name": "markdown-editor",
-  "version": "0.3.4",
+  "version": "0.3.6",
   "description": "Realtime Collaborative Markdown Editor",
   "main": "server.js",
   "scripts": {
