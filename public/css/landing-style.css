@@ -88,3 +88,10 @@ html, body {
 .cta-button:hover {
   background: linear-gradient(rgba(38, 38, 43, 0.85), rgba(38, 38, 43, 0.95));
   color: #A19E9F; }
+
+/*  Mobile Responsive changes */
+@media only screen and (max-width: 480px) {
+  .right-tri {
+    height: 50%; }
+  .cta-button {
+    width: 40%; } }

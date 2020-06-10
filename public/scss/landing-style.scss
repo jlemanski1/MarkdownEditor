@@ -22,7 +22,7 @@ $primary-font: "Ubuntu";
 $secondary-font: "Open Sans Condensed";
 $large-font-size: 48px;
 $small-font-size: 16px;
-$mobile-large-font-size: 24px;
+$mobile-large-font-size: 48px;
 $mobile-small-font-size: 8px;
 $mobile-extra-small-font-size: 6px;
 $thick-font-weight: 700;
@@ -130,4 +130,17 @@ html, body {
 .cta-button:hover {
     background: linear-gradient($primary);
     color: $neutral-gray;
+}
+
+
+/*  Mobile Responsive changes */
+
+@media only screen and (max-width: 480px) {
+	.right-tri {
+        height: 50%;
+    }
+
+    .cta-button {
+        width: 40%;
+    }
 }
