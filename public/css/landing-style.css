@@ -29,7 +29,7 @@ html, body {
   -webkit-clip-path: polygon(100% 0, 0% 100%, 100% 100%);
   clip-path: polygon(100% 0, 0% 100%, 100% 100%); }
 
-.red-brand-box {
+.brand-box {
   position: absolute;
   width: 8%;
   height: 10%;
@@ -38,7 +38,7 @@ html, body {
   background: #7002f2;
   z-index: 2; }
 
-.white-brand-box {
+.border-brand-box {
   position: absolute;
   width: 80%;
   height: 80%;
@@ -94,4 +94,6 @@ html, body {
   .right-tri {
     height: 50%; }
   .cta-button {
-    width: 40%; } }
+    width: 40%; }
+  .brand-box {
+    width: 20%; } }

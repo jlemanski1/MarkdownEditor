@@ -62,7 +62,7 @@ html, body {
     clip-path: $triangle;
 }
 
-.red-brand-box {
+.brand-box {
     position: absolute;
     width: 8%;
     height: 10%;
@@ -72,7 +72,7 @@ html, body {
     z-index: 2;
 }
 
-.white-brand-box {
+.border-brand-box {
     position: absolute;
     width: 80%;
     height: 80%;
@@ -139,5 +139,9 @@ html, body {
 
     .cta-button {
         width: 40%;
+    }
+
+    .brand-box {
+        width: 20%;
     }
 }
