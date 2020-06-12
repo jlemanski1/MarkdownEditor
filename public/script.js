@@ -1,8 +1,10 @@
 /*
     SCRIPTJS
 
-    Runs on page load, responsible for listening for user input, and then converting it into
-    html to be rendered on the other half of the page for preview.
+    Runs on markdown editor page load, responsible for listening for user input, and 
+    then converting it into html to be rendered on the other half of the page for 
+    preview.
+
 */
 
 window.onload = function () {
