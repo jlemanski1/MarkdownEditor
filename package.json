@@ -33,7 +33,7 @@
   "devDependencies": {
     "base64-url": ">=2.0.0",
     "morgan": ">=1.9.1",
-    "socket.io": ">=0.9.7",
+    "socket.io": ">=2.4.0",
     "uglify-js": ">=2.6.0"
   }
 }
