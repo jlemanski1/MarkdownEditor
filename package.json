@@ -25,10 +25,10 @@
   "homepage": "https://github.com/jlemanski1/MarkdownEditor#readme",
   "dependencies": {
     "ejs": "^3.1.3",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "node-sass": "^7.0.0",
     "redis": "^3.1.1",
-    "share": "^0.6.3"
+    "share": "^0.7.40"
   },
   "devDependencies": {
     "base64-url": ">=2.0.0",
