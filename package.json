@@ -28,7 +28,7 @@
     "express": "^4.17.3",
     "node-sass": "^7.0.0",
     "redis": "^3.1.1",
-    "share": "^0.6.3"
+    "share": "^0.7.40"
   },
   "devDependencies": {
     "base64-url": ">=2.0.0",
